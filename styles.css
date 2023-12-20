@@ -1,0 +1,75 @@
+body {
+  background-image: url(background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 500px;
+  margin: auto;
+  background-color: darkcyan;
+  padding: 30px;
+}
+#title,
+#description {
+  text-align: center;
+}
+label {
+  display: block;
+}
+.inline {
+  display: inline-block;
+  margin: 10px 0;
+}
+.block {
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+}
+.changing-width {
+  width: 100%;
+  height: 20px;
+}
+textarea {
+  width: 100%;
+  height: 50px;
+}
+#submit {
+  background-color: rgb(48, 133, 48);
+  color: white;
+  border: none;
+  border-radius: 9px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid rgb(59, 169, 59);
+  cursor: pointer;
+  /* because of reset button */
+  /* margin-right: 15px; */
+}
+#submit:hover {
+  background-color: rgb(43, 103, 43);
+}
+#button-div {
+  text-align: center;
+  margin-top: 20px;
+}
+.link-div {
+  text-align: center;
+}
+a {
+  color: black;
+}
+
+/* #Reset {
+  background-color: rgb(144, 4, 4);
+  color: white;
+  border: none;
+  border-radius: 9px;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid red;
+  cursor: pointer;
+  margin-left: 15px;
+}
+#Reset:hover {
+  background-color: rgb(117, 17, 17);
+} */

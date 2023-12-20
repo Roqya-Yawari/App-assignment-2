@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" type="text/CSS" />
+    <title>Registration form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="confirmation.html" method="GET" id="survey-form">
+        <h1 id="title">Registration form</h1>
+        <p id="description">
+          The form in which you can register your required information
+        </p>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Roqya"
+          class="changing-width"
+          required
+        />
+        <label for="email">Email address</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="roqya@gmail.com"
+          class="changing-width"
+          required
+        />
+        <label for="number">Age</label>
+        <input
+          type="number"
+          id="number"
+          min="18"
+          max="35"
+          placeholder=" 18 to 35"
+          class="changing-width"
+        />
+        <select name="" id="dropdowm" class="block">
+          <option value="language level">choose your language level</option>
+          <option value="very bad">very bad</option>
+          <option value="bad">Bad</option>
+          <option value="good">Good</option>
+          <option value="very good">Very good</option>
+          <option value="Excellent">Excellent</option>
+        </select>
+        <label>Are you free to study 4 hours?</label>
+        <input type="radio" name="freetime" id="radio1" /><label
+          for="radio1"
+          class="inline"
+        >
+          Yes</label
+        >
+        <input type="radio" name="freetime" id="radio2" /><label
+          for="radio2"
+          class="inline"
+        >
+          No</label
+        >
+        <label for="">Which fields are you interested in</label>
+        <input type="checkbox" value="medicine" id="medicine" /><label
+          for="medicine"
+          class="inline"
+          >Medicine</label
+        >
+        <input type="checkbox" value="computer Science" id="CS" /><label
+          for="CS"
+          class="inline"
+          >Computer Science</label
+        >
+        <input type="checkbox" value="arts" id="arts" /><label
+          for="arts"
+          class="inline"
+        >
+          Arts</label
+        >
+        <input type="checkbox" value="engineering" id="engineering" /><label
+          for="engineering"
+          class="inline"
+          >Engineering
+        </label>
+        <label for="">Your comments</label>
+        <textarea class="block"></textarea>
+        <div id="button-div">
+          <button id="submit">Submit</button>
+          <!-- I tried to make a reset button also, but it did not work . it was working like submit not reset button. -->
+
+          <!-- <button id="Reset">Reset</button> -->
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
